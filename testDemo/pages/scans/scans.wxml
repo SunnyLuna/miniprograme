@@ -1,0 +1,5 @@
+<!--pages/scans.wxml-->
+<text>pages/scans.wxml</text>
+<button bindtap='goBack'>返回上一页</button>
+<button bindtap='goScan'>扫码</button>
+<text>{{name}}</text>

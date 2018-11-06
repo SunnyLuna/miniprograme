@@ -1,0 +1,11 @@
+/* pages/test/test.wxss */
+
+.page-section{
+  background: green;
+  width: 100%;
+  height: 10rpx;
+}
+.map-test{
+  width: 100%;
+  height: 500rpx;
+}

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/test/test",
+    "pages/bluetooth/bluetooth",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/scans/scans",
+    "pages/network/network"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "静静地看",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/test/test",
+        "iconPath": "images/01.png",
+        "selectedIconPath": "images/04.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/02.png",
+        "selectedIconPath": "images/04.png",
+        "text": "索引"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/03.png",
+        "selectedIconPath": "images/04.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": "true"
+}
